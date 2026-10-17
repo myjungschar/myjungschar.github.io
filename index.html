@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JungscharChat</title>
+  <meta name="description" content="Der private Chat der Jungschar der ECBG Gifhorn: Nachrichten, Termine und Infos.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0e1621">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://myjungschar.github.io/">
+
+  <!-- Logo: dieselben Dateien wie im Chat (liegen dort unter /chat/) -->
+  <link rel="icon" type="image/svg+xml" href="/chat/favicon.svg">
+  <link rel="apple-touch-icon" href="/chat/apple-touch-icon.png">
+
+  <meta property="og:site_name" content="JungscharChat">
+  <meta property="og:title" content="JungscharChat">
+  <meta property="og:description" content="Der private Chat der Jungschar der ECBG Gifhorn: Nachrichten, Termine und Infos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://myjungschar.github.io/">
+
+  <!-- Name der Seite für Google (so heißt die Seite in den Suchergebnissen) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "JungscharChat",
+    "alternateName": ["Jungschar Chat Gifhorn", "Jungschar Chat"],
+    "url": "https://myjungschar.github.io/"
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --border: #dde3e8;
+      --text: #1b232b;
+      --text-sub: #64748b;
+      --accent: #0088cc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1621;
+        --card: #17212b;
+        --border: #243242;
+        --text: #e9edf1;
+        --text-sub: #9aa7b4;
+        --accent: #2b5c8a;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    .card {
+      width: 100%;
+      max-width: 380px;
+      padding: 32px 28px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      margin-bottom: 16px;
+      border-radius: 14px;
+      background: var(--accent);
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    p { margin: 0 0 24px; font-size: 15px; line-height: 1.5; color: var(--text-sub); }
+    a.button {
+      display: block;
+      padding: 14px 20px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">JC</div>
+    <h1>JungscharChat</h1>
+    <p>Der private Chat der Jungschar der ECBG Gifhorn: Nachrichten, Termine und Infos.</p>
+    <a class="button" href="/chat/">Zum Chat</a>
+  </main>
+</body>
+</html>
